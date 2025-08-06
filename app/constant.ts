@@ -85,8 +85,8 @@ export enum FileName {
 }
 
 export enum StoreKey {
-  Chat = "chat-next-web-store",
-  Plugin = "chat-next-web-plugin",
+  Chat = "apexchat-store",
+  Plugin = "apexchat-plugin",
   Access = "access-control",
   Config = "app-config",
   Mask = "mask-store",
@@ -360,7 +360,7 @@ You are an AI assistant with access to system tools. Your role is to help users 
   "params": {
     "name": "write_file",
     "arguments": {
-      "path": "/Users/river/dev/nextchat/test/joke.txt",
+      "path": "/Users/river/dev/apexchat/test/joke.txt",
       "content": "为什么数学书总是感到忧伤？因为它有太多的问题。"
     }
   }
@@ -373,7 +373,7 @@ You are an AI assistant with access to system tools. Your role is to help users 
    {
       "method": "write_file",
       "params": {
-        "path": "NextChat_Information.txt",
+        "path": "ApexChat_Information.txt",
         "content": "1"
     }
    }

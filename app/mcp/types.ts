@@ -62,7 +62,7 @@ export const McpNotificationsSchema: z.ZodType<McpNotifications> = z.object({
 });
 
 ////////////
-// Next Chat
+// ApexChat
 ////////////
 export interface ListToolsResponse {
   tools: {

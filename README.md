@@ -1,10 +1,10 @@
 <div align="center">
 
 <a href='https://github.com/salimuddin07/nextchat_ai'>
-  <img src="./docs/images/cover.png" width="1000" alt="NextChat AI"/>
+  <img src="./docs/images/cover.png" width="1000" alt="ApexChat AI"/>
 </a>
 
-<h1 align="center">NextChat AI - Custom Implementation</h1>
+<h1 align="center">ApexChat AI - Custom Implementation</h1>
 
 English | [العربية](./README_AR.md) | [简体中文](./README_CN.md)
 
@@ -45,7 +45,7 @@ English | [العربية](./README_AR.md) | [简体中文](./README_CN.md)
 1. **Clone the repository:**
 ```bash
 git clone https://github.com/salimuddin07/nextchat_ai.git
-cd nextchat_ai
+cd apexchat_ai
 ```
 
 2. **Install dependencies:**
@@ -84,10 +84,10 @@ Navigate to [http://localhost:3000](http://localhost:3000)
 
 ```bash
 # Build the image
-docker build -t nextchat-ai .
+docker build -t apexchat-ai .
 
 # Run the container
-docker run -p 3000:3000 nextchat-ai
+docker run -p 3000:3000 apexchat-ai
 ```
 
 ### Using Docker Compose
@@ -233,7 +233,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🙏 Acknowledgments
 
-- **Original NextChat project** by [ChatGPTNextWeb](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web)
+- **Original project** by [ChatGPTNextWeb](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web)
 - **All AI providers** for their amazing APIs
 - **Open source community** for contributions and feedback
 - **Contributors** who help improve this project
