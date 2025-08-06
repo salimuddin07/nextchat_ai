@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 import styles from "./home.module.scss";
 
 import BotIcon from "../icons/bot.svg";
-import LogoImg from "../icons/logo.png";
+import LogoImg from "../icons/logo1.png";
 import LoadingIcon from "../icons/three-dots.svg";
 
 import { getCSSVar, useMobileScreen } from "../utils";
