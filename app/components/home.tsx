@@ -35,7 +35,7 @@ import { initializeMcpSystem, isMcpEnabled } from "../mcp/actions";
 export function Loading(props: { noLogo?: boolean }) {
   return (
     <div className={clsx("no-dark", styles["loading-content"])}>
-      {!props.noLogo && <img src={LogoImg.src} alt="ApexChat Logo" style={{width: "80px", height: "auto", marginBottom: "20px"}} />}
+      {!props.noLogo && <img src={LogoImg.src} alt="ApexChat Logo" style={{width: "120px", height: "auto", marginBottom: "20px"}} />}
       <LoadingIcon />
     </div>
   );

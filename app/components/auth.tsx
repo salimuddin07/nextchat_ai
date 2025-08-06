@@ -57,7 +57,7 @@ export function AuthPage() {
         ></IconButton>
       </div>
       <div className={clsx("no-dark", styles["auth-logo"])}>
-        <img src={LogoImg.src} alt="ApexChat Logo" style={{width: "80px", height: "auto"}} />
+        <img src={LogoImg.src} alt="ApexChat Logo" style={{width: "120px", height: "auto"}} />
       </div>
 
       <div className={styles["auth-title"]}>{Locale.Auth.Title}</div>
@@ -166,7 +166,7 @@ function TopBanner() {
       onMouseLeave={handleMouseLeave}
     >
       <div className={clsx(styles["top-banner-inner"], "no-dark")}>
-        <img src={LogoImg.src} className={styles["top-banner-logo"]} alt="ApexChat Logo" style={{width: "24px", height: "auto"}} />
+        <img src={LogoImg.src} className={styles["top-banner-logo"]} alt="ApexChat Logo" style={{width: "32px", height: "auto"}} />
         <span>
           {Locale.Auth.TopTips}
           <a
