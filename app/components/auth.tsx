@@ -7,7 +7,7 @@ import { useAccessStore } from "../store";
 import Locale from "../locales";
 import Delete from "../icons/close.svg";
 import Arrow from "../icons/arrow.svg";
-import Logo from "../icons/logo.svg";
+import LogoImg from "../icons/logo.png";
 import { useMobileScreen } from "@/app/utils";
 import BotIcon from "../icons/bot.svg";
 import { getClientConfig } from "../config/client";
@@ -57,7 +57,7 @@ export function AuthPage() {
         ></IconButton>
       </div>
       <div className={clsx("no-dark", styles["auth-logo"])}>
-        <BotIcon />
+        <img src={LogoImg.src} alt="ApexChat Logo" style={{width: "60px", height: "60px"}} />
       </div>
 
       <div className={styles["auth-title"]}>{Locale.Auth.Title}</div>
@@ -166,7 +166,7 @@ function TopBanner() {
       onMouseLeave={handleMouseLeave}
     >
       <div className={clsx(styles["top-banner-inner"], "no-dark")}>
-        <Logo className={styles["top-banner-logo"]}></Logo>
+        <img src={LogoImg.src} className={styles["top-banner-logo"]} alt="ApexChat Logo" />
         <span>
           {Locale.Auth.TopTips}
           <a
